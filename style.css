@@ -1,0 +1,59 @@
+body
+{
+  color: rgb(174, 9, 9);
+ background-image: url(bg3.jpg);
+background-size: contain;
+font-family: cursive;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #C04848 0%, #480048  51%, #C04848  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  width: 65%;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+ .heading{
+  font-size: 22px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+ }
+ label{
+  background-color: beige;
+  padding: 10px;
+ }
